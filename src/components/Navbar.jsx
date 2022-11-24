@@ -24,7 +24,7 @@ export default function Navbar() {
               <a href="">STACK</a>
             </li>
             <li className="p-4">
-              <a href="">PROYECTOS</a>
+              <a href="#proyectos">PROYECTOS</a>
             </li>
           </ul>
         </nav>

@@ -1,26 +1,31 @@
+import hs from "../icons/srchmt.png";
+import ew from "../icons/ewrlsr.png";
 export default function Proyectos() {
   return (
     <>
-      <section >
+      <section id="proyectos">
+        <h1 className="text-5xl font-bold py-6 text-center">Proyectos</h1>
         <div className="hero min-h-max bg-base-200 py-6">
           <div className="hero-content flex-col lg:flex-row">
-            <img
-              src="https://placeimg.com/260/400/arch"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
+            <img src={ew} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">E-World!</h1>
               <p className="py-6">
-                Proyecto individual elaborado como capstone del
-                bootcamp de Soy Henry donde podemos consultar todo lo relativo a
-                los países y a su información especifica. App construida
-                utlizando React, Redux, Node y Sequelize con el objetivo de
-                reafirmar y conectar los conceptos aprendidos en la carrera,
-                obtener una visión amplia de buenas práctica y practicar el
-                workflow de GIT.
+                Proyecto individual elaborado como capstone del bootcamp de Soy
+                Henry donde podemos consultar todo lo relativo a los países y a
+                su información especifica. App construida utlizando React,
+                Redux, Node y Sequelize con el objetivo de reafirmar y conectar
+                los conceptos aprendidos en la carrera, obtener una visión
+                amplia de buenas práctica y practicar el workflow de GIT.
               </p>
               <button className="btn btn-primary">Sitio</button>
-              <button className="btn btn-primary m-2">Codigo</button>
+              <a
+                href="https://github.com/andresrh11/PI-Countries"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-primary m-2">Codigo</button>
+              </a>
             </div>
           </div>
         </div>
@@ -28,10 +33,7 @@ export default function Proyectos() {
       <section>
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src="https://placeimg.com/260/400/arch"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
+            <img src={hs} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">HenryShops!</h1>
               <p className="py-6">
@@ -45,8 +47,20 @@ export default function Proyectos() {
                 clientes y manejar de manera optima sus pedidos a traves de
                 whatsapp.
               </p>
-              <button className="btn btn-primary">Sitio</button>
-              <button className="btn btn-primary m-2">Codigo</button>
+              <a
+                href="https://henry-pf.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-primary">Sitio</button>
+              </a>
+              <a
+                href="https://github.com/andresrh11/HenryShops"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-primary m-2">Codigo</button>
+              </a>
             </div>
           </div>
         </div>
