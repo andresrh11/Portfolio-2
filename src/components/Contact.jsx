@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <form>
+    <form id="contacto">
       <h1 className="text-5xl font-bold py-6 text-center">Contacto</h1>
       <div className="hero min-h-md bg-base-200 py-10">
         <div className="hero-content text-center">
@@ -45,7 +45,7 @@ export default function Contact() {
               </label>
             </div>
             <textarea
-              className="p-3 h-32 my-4 flex w-80 input-group"
+              className="p-3 h-32 my-4 flex w-80 input"
               placeholder="Mensaje"
             ></textarea>
             <button className="btn btn-warning">Enviar</button>

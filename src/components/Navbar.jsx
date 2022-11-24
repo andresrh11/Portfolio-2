@@ -2,33 +2,23 @@ import logo from "../icons/logop.png";
 
 export default function Navbar() {
   return (
-    <header className="py-2 relative bg-gradient-to-b">
-      <div className="flex items-center justify-around h-10">
-        <nav className="w-36">
-          <div className="flex justify-between ">
-            <div className="w-7 h-8 inline-block items-center">
-              <img src={logo} alt="" />
-            </div>
-            <a href="" className="flex justify-around text-xl font-extrabold">
-              andres.co
-            </a>
-          </div>
-        </nav>
-        <nav>
-          <ul className="flex justify-around text-xl font-bold">
-            <div></div>
-            <li className="p-4">
-              <a href="">CONTACTO</a>
-            </li>
-            <li className="p-4">
-              <a href="">STACK</a>
-            </li>
-            <li className="p-4">
-              <a href="#proyectos">PROYECTOS</a>
-            </li>
-          </ul>
-        </nav>
+    <div id="home" className="navbar bg-base-100">
+      <div className="flex-1">
+        <a className="btn btn-ghost normal-case text-xl">AndresRH.co</a>
       </div>
-    </header>
+      <div className="flex-none">
+        <ul className="menu menu-horizontal p-0">
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
+          <li>
+            <a>Stack</a>
+          </li>
+          <li>
+            <a href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
