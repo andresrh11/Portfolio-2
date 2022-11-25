@@ -18,7 +18,7 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Nombre"
-                  className="input input-bordered"
+                  className="input input-bordered "
                   name="name"
                 />
               </label>
@@ -42,7 +42,7 @@ export default function Contact() {
                 <span className="label-text">Email</span>
               </label>
               <label className="input-group">
-                <span>Email</span>
+                <span> E-mail </span>
                 <input
                   type="text"
                   placeholder="tu@email.com"
