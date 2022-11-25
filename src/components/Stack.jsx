@@ -13,7 +13,7 @@ export default function Stack() {
   const [contador, setContador] = useState(0);
   setTimeout(() => {
     setContador(1);
-  }, [8050]);
+  }, [8000]);
   return (
     <section id="stack">
       <h1 className="text-5xl font-bold py-6 text-center items-center content-center">
