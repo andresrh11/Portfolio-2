@@ -1,4 +1,4 @@
-import logo from "../icons/logop.png";
+
 
 export default function Navbar() {
   return (

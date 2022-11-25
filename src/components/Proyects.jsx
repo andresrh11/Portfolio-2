@@ -7,7 +7,7 @@ export default function Proyectos() {
         <h1 className="text-5xl font-bold py-6 text-center">Proyectos</h1>
         <div className="hero min-h-max bg-base-200 py-6">
           <div className="hero-content flex-col lg:flex-row">
-            <img src={ew} className="rounded-lg  max-w-auto" />
+            <img src={ew} className="rounded-lg  max-w-auto" alt="ew" />
             <div>
               <h1 className="text-5xl font-bold">E-World!</h1>
               <p className="py-6 font-normal text-lg ">
@@ -34,7 +34,7 @@ export default function Proyectos() {
       <section>
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img src={hs} className="max-w-auto rounded-lg " />
+            <img src={hs} className="max-w-auto rounded-lg " alt="hhs" />
             <div>
               <h1 className="text-5xl font-bold">HenryShops!</h1>
               <p className="py-6 font-normal text-lg">
