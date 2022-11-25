@@ -1,14 +1,14 @@
-import img from "../icons/yo.jpg";
 export default function Header() {
   return (
     <section>
-      <div className="hero min-h-screen bg-base-200 py-10">
-        <div className="hero-content text-center">
+      <div className="hero min-h-screen bg-base-200 py-10 ">
+        <div className="hero-content text-center ">
           <div className="max-w-md">
-            <h2 className="text-xl font-bold ">Andrés Romero</h2>
-            <h1 className="text-6xl md:text-7xl  font-bold py-3 max-w-auto ">
-              FRONT-END DEVELOPER
-            </h1>
+            <h2 className="text-3xl font-bold">Andrés Romero</h2>
+            <div className="heade">
+              <span className="heade1">FRONT-END</span>
+              <span className="heade2"> DEVELOPER</span>
+            </div>
             <h2 className="text-xl font-bold py-1">📍 JavaScript </h2>
             {/* <p className="py-6">
               <h2>

@@ -10,13 +10,14 @@ export default function Proyectos() {
             <img src={ew} className="rounded-lg  max-w-auto" />
             <div>
               <h1 className="text-5xl font-bold">E-World!</h1>
-              <p className="py-6">
+              <p className="py-6 font-normal text-lg ">
                 Proyecto individual elaborado como capstone del bootcamp de Soy
                 Henry donde podemos consultar todo lo relativo a los países y a
-                su información especifica. App construida utlizando React,
-                Redux, Node y Sequelize con el objetivo de reafirmar y conectar
-                los conceptos aprendidos en la carrera, obtener una visión
-                amplia de buenas práctica y practicar el workflow de GIT.
+                su información especifica. App construida utlizando JavaScript,
+                HTML, Css, React, Redux, Node y Sequelize con el objetivo de
+                reafirmar y conectar los conceptos aprendidos en la carrera,
+                obtener una visión amplia de buenas práctica y practicar el
+                workflow de GIT.
               </p>
               <button className="btn btn-primary">Sitio</button>
               <a
@@ -36,7 +37,7 @@ export default function Proyectos() {
             <img src={hs} className="max-w-auto rounded-lg " />
             <div>
               <h1 className="text-5xl font-bold">HenryShops!</h1>
-              <p className="py-6">
+              <p className="py-6 font-normal text-lg">
                 Proyecto grupal elaborado para el bootcamp de SoyHenry, donde
                 nos integramos un grupo de 7 estudiantes para llevar a la
                 realidad esta propuesta que integra tecnologías como:
@@ -45,7 +46,7 @@ export default function Proyectos() {
                 finalidad, permitirle a los pequeños comercios crear su propia
                 pagina web, llegar de una manera diferente y eficaz a sus
                 clientes y manejar de manera optima sus pedidos a traves de
-                whatsapp.
+                Whatsapp.
               </p>
               <a
                 href="https://henry-pf.vercel.app/"
