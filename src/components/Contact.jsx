@@ -48,7 +48,7 @@ export default function Contact() {
               className="p-3 h-32 my-4 flex w-80 input"
               placeholder="Mensaje"
             ></textarea>
-            <button className="btn btn-warning">Enviar</button>
+            <button className="btn btn-primary">Enviar</button>
           </div>
         </div>
       </div>

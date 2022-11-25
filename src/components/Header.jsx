@@ -1,13 +1,16 @@
 import img from "../icons/yo.jpg";
 export default function Header() {
   return (
-    <section >
+    <section>
       <div className="hero min-h-screen bg-base-200 py-10">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            
-            <h1 className="text-5xl font-bold py-6">Holis</h1>
-            <p className="py-6">
+            <h2 className="text-xl font-bold ">Andrés Romero</h2>
+            <h1 className="text-6xl md:text-7xl  font-bold py-3 max-w-auto ">
+              FRONT-END DEVELOPER
+            </h1>
+            <h2 className="text-xl font-bold py-1">📍 JavaScript </h2>
+            {/* <p className="py-6">
               <h2>
                 {" "}
                 Desarrollador Web Front-End, con habilidad en lenguajes y
@@ -25,9 +28,17 @@ export default function Header() {
                 complementan tanto mi trabajo en equipo como mi capacidad de
                 toma de decisiones.{" "}
               </h2>
-            </p>
-            <button className="btn btn-warning">Descargar CV</button>
-            <button className="btn btn-warning m-2">Contactame</button>
+            </p> */}
+            <a
+              href="https://drive.google.com/file/d/1IUi4RlKx3d2k452pzK6bG4xRmdDGOidT/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="btn btn-primary">Descargar CV</button>
+            </a>{" "}
+            <button className="btn btn-primary m-2">
+              <a href="#contacto">Contacto</a>
+            </button>
           </div>
         </div>
       </div>

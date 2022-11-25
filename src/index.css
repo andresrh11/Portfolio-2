@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,8 +12,38 @@ body {
  
 
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.w-marquee{
+  margin-top: 20px;
+  position: relative;
+  align-items: center;
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+}
+.marquee{
+  position: absolute;
+  margin: auto auto;
+  overflow: hidden;
+}
+.marquee span {
+  display: flex;
+  line-height: 200px;
+  height: auto;
+  width: auto;
+  animation: marquee 25s linear infinite;
+}
+.marquee2 span{
+  animation-delay: 12.5s;
+}
+@keyframes marquee{
+  0% {
+    transform: translate(100%,0)
+  }
+  100% {
+    transform: translate(-100%, 0)
+  }
 }
