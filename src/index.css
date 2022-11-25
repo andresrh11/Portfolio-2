@@ -19,31 +19,55 @@ code {
 .w-marquee{
   margin-top: 20px;
   position: relative;
-  align-items: center;
   width: auto;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
-}
+  transform: translate(0,0);
+} 
+
 .marquee{
   position: absolute;
   margin: auto auto;
   overflow: hidden;
+  height: auto;
+  white-space: nowrap;
 }
 .marquee span {
   display: flex;
-  line-height: 200px;
   height: auto;
   width: auto;
-  animation: marquee 25s linear infinite;
+  animation: marquee 24s linear infinite;
+  white-space: nowrap;
 }
 .marquee2 span{
-  animation-delay: 12.5s;
+  animation-delay: 12s;
+  
 }
 @keyframes marquee{
   0% {
-    transform: translate(100%,0)
+    transform: translate(100%, 0)
   }
   100% {
     transform: translate(-100%, 0)
   }
 }
+@media(max-width:1350px){
+  .w-marquee{
+    height:180px;
+  } 
+  }
+  
+@media(max-width:1000px){
+    .w-marquee{height:120px;} 
+  
+    }
+    
+@media(max-width:720px){
+      .w-marquee{height:80px;}
+     
+     
+      }
+      
+@media(max-width:549px){
+        .w-marquee{height:60px;} 
+        }
