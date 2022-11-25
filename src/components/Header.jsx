@@ -2,8 +2,8 @@ export default function Header() {
   return (
     <section>
       <div className="hero min-h-screen bg-base-200 py-10 ">
-        <div className="hero-content text-center ">
-          <div className="max-w-md">
+        <div className="hero-content text-center content-center items-center">
+          <div className="max-w-3xl ">
             <h2 className="text-3xl font-bold">Andrés Romero</h2>
             <div className="heade">
               <span className="heade1">FRONT-END</span>

@@ -47,7 +47,7 @@ code {
   
 }
 .heade{
-  font-size: 120px;
+  
   line-height: 1;
   font-weight: 700;
   padding-top:12px ;
@@ -57,12 +57,12 @@ code {
 .heade1{
   display: flex;
   animation: heade 0.7s linear 1;
- 
+ font-size: 120px;
 }
 .heade2{
   display: flex;
   animation: heade2 0.7s linear 1;
-  
+  font-size: 120px;
 }
 .text-about{
   display: none;
@@ -101,9 +101,13 @@ code {
     transform: translate(-100%, 0)
   }
 }
-@media (min-width:768px){
-  .heade{
-    font-size: 72px;
+@media (max-width:768px){
+  .heade1{
+    font-size: 60px;
+    line-height: 1;
+  }
+  .heade2{
+    font-size: 60px;
     line-height: 1;
   }
 }
