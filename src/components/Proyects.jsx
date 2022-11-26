@@ -19,7 +19,13 @@ export default function Proyectos() {
                 obtener una visión amplia de buenas práctica y practicar el
                 workflow de GIT.
               </p>
-              <button className="btn btn-primary">Sitio</button>
+              <a
+                href="https://eworldapp.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-primary">Sitio</button>
+              </a>
               <a
                 href="https://github.com/andresrh11/PI-Countries"
                 target="_blank"
