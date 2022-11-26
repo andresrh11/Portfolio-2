@@ -31,7 +31,7 @@ code {
   overflow: hidden;
   height: auto;
   white-space: nowrap;
-  animation: marquee 16s linear infinite;
+  
 }
 .marquee span {
   display: flex;
@@ -39,11 +39,12 @@ code {
   width: auto;
   white-space: nowrap;
   overflow: hidden; 
+  animation: marquee 16s linear infinite;
 }
 
 .marquee2{
  overflow: hidden; 
-  animation: marquee 16s linear infinite ;
+  animation-delay: 8s;
   
 }
 .heade{
