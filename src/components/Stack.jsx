@@ -19,7 +19,7 @@ export default function Stack() {
       <h1 className="text-5xl font-bold py-6 text-center items-center content-center">
         Stack
       </h1>
-      <div className="w-marquee">
+      <div className="w-marquee bg-base-200 py-6">
         <div className="marquee">
           <span>
             <div className="py-2 px-2">
