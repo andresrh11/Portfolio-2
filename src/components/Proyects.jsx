@@ -78,15 +78,12 @@ export default function Proyectos() {
           <div className="hero-content flex-col lg:flex-row">
             <img src={enc} className="rounded-lg  max-w-auto" alt="ew" />
             <div>
-              <h1 className="text-5xl font-bold">ENCRIPTADOR</h1>
+              <h1 className="text-5xl font-bold">Encriptador</h1>
               <p className="py-6 font-normal text-lg ">
-                Proyecto individual elaborado como capstone del bootcamp de Soy
-                Henry donde podemos consultar todo lo relativo a los países y a
-                su información especifica. App construida utlizando JavaScript,
-                HTML, Css, React, Redux, Node y Sequelize con el objetivo de
-                reafirmar y conectar los conceptos aprendidos en la carrera,
-                obtener una visión amplia de buenas práctica y practicar el
-                workflow de GIT.
+                Sitio desarrollado para satisfacier todos los requerimientos
+                establecidos por el challenge de Alura Latam. Donde se
+                establecian una serie de parametros para poder participar dentro
+                del challenge
               </p>
               <a
                 href="https://encriptador-andresrh.netlify.app/"
