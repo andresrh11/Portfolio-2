@@ -1,5 +1,6 @@
 import hs from "../icons/srchmt.png";
 import ew from "../icons/ewrlsr.png";
+import enc from "../icons/pngencrip.png";
 export default function Proyectos() {
   return (
     <>
@@ -75,7 +76,7 @@ export default function Proyectos() {
       <section id="proyectos">
         <div className="hero min-h-max bg-base-200 py-6">
           <div className="hero-content flex-col lg:flex-row">
-            <img src={ew} className="rounded-lg  max-w-auto" alt="ew" />
+            <img src={enc} className="rounded-lg  max-w-auto" alt="ew" />
             <div>
               <h1 className="text-5xl font-bold">ENCRIPTADOR</h1>
               <p className="py-6 font-normal text-lg ">
