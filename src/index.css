@@ -41,11 +41,7 @@ code {
   animation: marquee 16s linear infinite;
 }
 
-.marquee2{
- overflow: hidden; 
-  animation-delay: 8s;
-  
-}
+
 .heade{
   
   line-height: 1;

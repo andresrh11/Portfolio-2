@@ -21,7 +21,7 @@ export default function Stack() {
       </h1>
       <div className="w-marquee bg-base-200 py-6">
         <div className="marquee">
-          <span>
+          <span >
             <div className="py-2 px-2">
               <img
                 src={js}
@@ -29,49 +29,49 @@ export default function Stack() {
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />
             </div>
-            <div className="column py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={react}
                 alt="React"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={html}
                 alt="html"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={css}
                 alt="css"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={node}
                 alt="node"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={postgres}
                 alt="postgress"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2">
+            <div className="py-2 px-4">
               <img
                 src={prettier}
                 alt="prettier"
                 className="w-80 h-auto rounded-lg  max-w-auto"
               />{" "}
             </div>
-            <div className="py-2 px-2 flex justify-center items-center">
+            <div className="py-2 px-4 flex justify-center items-center">
               {" "}
               <img
                 src={tailwind}
@@ -83,7 +83,7 @@ export default function Stack() {
           </span>
         </div>
 
-        <div className="marquee marquee2">
+        {/* <div className="marquee marquee2">
           <span>
             <div className="py-2 px-2">
               <img
@@ -143,7 +143,7 @@ export default function Stack() {
             </div>
             &nbsp;&nbsp;&nbsp;
           </span>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
